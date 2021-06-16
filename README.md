@@ -15,5 +15,5 @@ TO_ADDRESS = "bar@gmail.com"
 SUBJECT = "test subject"
 BODY = "test body"
 
-gmail_obj.send(FROM_ADDRESS, TO_ADDRESS, SUBJECT, body)
+gmail_obj.send(FROM_ADDRESS, TO_ADDRESS, SUBJECT, BODY)
 ```
