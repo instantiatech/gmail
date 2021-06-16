@@ -13,7 +13,7 @@ gmail_obj = gmail.Gmail(USER_ADDRESS, USER_PASSWORD)
 FROM_ADDRESS = "foo@gmail.com"
 TO_ADDRESS = "bar@gmail.com"
 SUBJECT = "test subject"
-body = "test body"
+BODY = "test body"
 
 gmail_obj.send(FROM_ADDRESS, TO_ADDRESS, SUBJECT, body)
 ```
