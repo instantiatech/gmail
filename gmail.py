@@ -120,7 +120,9 @@ class Gmail(object):
 
         return msg
 
-    def create_body(self, from_address, to_addresses, subject, body, profile, cc_addresses=None, bcc_addresses=None):
+    def create_body(
+        self, from_address, to_addresses, subject, body, profile=None, cc_addresses=None, bcc_addresses=None
+    ):
         """メール本文を作成する
 
         Args:
